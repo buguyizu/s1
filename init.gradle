@@ -1,0 +1,10 @@
+// path: %GRADLE_HOME%\init.d
+allprojects {
+	repositories {
+		maven {
+			name "aliyunMavenNexus"
+			url "http://maven.aliyun.com/nexus/content/groups/public/"
+		}
+		mavenCentral()
+	}
+}
